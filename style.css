@@ -1,0 +1,115 @@
+header {
+    background-color: #e63946; /* colors the background red */
+    overflow: auto; /* controls the layout */
+    padding-top: 10px; /* spacing inside the header */
+    padding-bottom: 10px; 
+    padding-right: 20px; 
+    padding-left: 20px; 
+}
+
+.mylogo {
+    float: left; /* makes it go to the left */
+}
+
+.nav {
+    float: right; /* makes it go to the right */
+    margin-top: 25px; /* putting the links a little lower so that they would align with the logo */
+    margin-left: 20px; 
+    font-weight: bold; /* the text is bold */
+}
+
+.coverphoto img {
+    display: block; /* starts on a new line */
+    width: 100%; /* full width */
+    height: 400px; /* height of photo */
+}
+
+main {
+    width: 900px; /* width of the contents */
+    margin: 20px auto; /* horizontally centering the texts */
+    padding-top: 0; /* spacing inside the header */
+    padding-bottom: 0; 
+    padding-left: 10px;
+    padding-right: 10px; 
+    text-align: center; /* puts the text in the center */
+    border: 1px solid #ccc; /* the border is 1px, solid, and light gray */
+    background-color: #fff; /* the background color is white */
+}
+
+main h3 {
+    color: #e63946; /* the text is red */
+    margin-top: 30px; /* the space above the headings */
+}
+
+body {
+    font-family: Arial, sans-serif; /* the font is clean sans-serif */
+    background-color: #fff; /* the background color is white */
+    color: #333; /* the body text's color is gray */
+    margin: 0; 
+    padding: 0;
+}
+
+h1 { 
+    margin: 0;
+    padding: 0;
+    color:#e63946; /* the color of h1 is red */
+}
+
+h2 { 
+    margin: 0;
+    padding: 0;
+}
+
+h3 { 
+    margin: 0;
+    padding: 0;
+}
+
+h4 { 
+    margin: 0;
+    padding: 0;
+}
+
+p { 
+    margin: 0;
+    padding: 0;
+}
+
+ul { 
+    margin: 0;
+    padding: 0;
+}
+
+li { 
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    margin: 20px auto; /* horizontally centering the texts */
+    border: 1px solid black; /* the border is 1px, solid, and black */
+}
+
+.references {
+    position: fixed; /* the text is fixed even when you are scrolling */
+    bottom: 0;
+    left: 0;
+    width: 300px;       
+    font-size: 12px;
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc;    
+    padding: 10px;
+    overflow: auto;          
+    height: 200px;         
+}
+
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1;
+    margin-top: 40px;
+}
+
